@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background-color: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+}
+
+.jogador, .vencedor {
+    font: 30px;
+    margin-top: 10px;
+
+}
+
+.vencedor {
+    margin-bottom: 10px;
+}
+
+button {
+    font-weight: bold;
+    margin-top: 10px;
+    width:  100px;
+    height:  30px;
+    background-color: rgb(105, 238, 171);
+    cursor: pointer;
+    border-radius: 12px;
+    margin: 4px 2px;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
